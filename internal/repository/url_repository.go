@@ -2,7 +2,7 @@ package repository
 
 import (
 	"gorm.io/gorm"
-	"url_shotener/models"
+	"url_shotener/internal/models"
 )
 
 type URLRepository interface {

@@ -2,8 +2,8 @@ package service
 
 import (
 	"fmt"
-	"url_shotener/models"
-	"url_shotener/repository"
+	"url_shotener/internal/models"
+	"url_shotener/internal/repository"
 )
 
 const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"

@@ -9,7 +9,7 @@ import (
 var DB *gorm.DB
 
 func ConnectDatabase() {
-	database, err := gorm.Open(sqlite.Open("urlshortener.db"), &gorm.Config{})
+	database, err := gorm.Open(sqlite.Open(Cfg.DBPath), &gorm.Config{})
 	if err != nil {
 		log.Fatal(err)
 	}

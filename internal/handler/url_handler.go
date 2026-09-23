@@ -3,7 +3,7 @@ package handler
 import (
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"url_shotener/service"
+	"url_shotener/internal/service"
 )
 
 type URLHandler struct {

@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"url_shotener/handler"
+	"url_shotener/internal/handler"
 )
 
 func SetupRouter(UrlHandler *handler.URLHandler) *gin.Engine {
